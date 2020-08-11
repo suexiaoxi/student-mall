@@ -1,0 +1,16 @@
+.service{
+    width: 1000px;
+    height: 180px;
+    /*background-color: #eeeeee;*/
+    margin: 0 auto;
+}
+.area{
+    width: 250px;
+    text-align: center;
+    float: left;
+    margin-top: 40px;
+}
+.area p{
+    font-weight: bold;
+    color: #333333;
+}

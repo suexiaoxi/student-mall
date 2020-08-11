@@ -1,0 +1,157 @@
+/*第一部分*/
+.login-welcome{
+    width: 1000px;
+    height: 80px;
+    margin-top: 20px;
+}
+.login-welcome img{
+    float: left;
+    margin-right: 20px;
+}
+.login-welcome h1{
+    font-weight: 400;
+    text-align: left;
+    line-height: 45px;
+    color: grey;
+
+}
+
+/*第二部分*/
+.login-banner{
+    width: 100%;
+    height: 550px;
+    background-image: url("../img/login/regist.png");
+    /*以宽为主*/
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    min-width: 760px;
+    position: relative;
+}
+.login-back{
+    position: absolute;
+    top: 23%;
+    left: 64%;
+    width: 290px;
+    height: 288px;
+    background-color: rgba(00,00,00,0.5);
+    position: relative;
+}
+
+.login-zong{
+    margin: 0 auto;
+    width: 236px;
+    height: 225px;
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    float: left;
+}
+.login-dlzc{
+    width: 100%;
+    height: 25px;
+}
+.login-dlzc .a1{
+    font-size: 15px;
+    color: white;
+    font-weight: 900;
+    float: left;
+    display: inline-block;
+}
+.login-dlzc .a1:hover{
+    color: #0aa1ed;
+}
+
+.login-dlzc .a2{
+    font-size: 12px;
+    color: white;
+    font-weight: 900;
+    float: right;
+    display: inline-block;
+}
+.login-dlzc .a2:hover{
+    color: #0aa1ed;
+}
+
+/******************************/
+.login-name{
+    width: 100%;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+.login-name input{
+    width: 191px;
+    height: 40px;
+    border: 1px solid transparent;
+    background-image: url("../img/login/name.png");
+    background-repeat: no-repeat;
+    padding-left: 45px;
+    background-color: #ffffff;
+    color: #323232;
+    font-size: 16px;
+    float: left;
+}
+/***************************************/
+.login-password{
+    width: 100%;
+    height: 40px;
+    margin-top: 25px;
+    margin-bottom: 18px;
+}
+.login-password input{
+    width: 191px;
+    height: 40px;
+    border: 1px solid transparent;
+    background-image: url("../img/login/pwd.png");
+    background-repeat: no-repeat;
+    padding-left: 45px;
+    background-color: #ffffff;
+    color: #323232;
+    font-size: 16px;
+    float: left;
+}
+/*****************************/
+.login-xz{
+    width: 100%;
+    height: 15px;
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+    position: relative;
+}
+
+.login-xz input{
+    position: absolute;
+    top: 2px;
+    width: 13px;
+    height: 13px;
+    background-color: white;
+    float: left;
+}
+.login-xz  .p3{
+    font-size: 12px;
+    color: white;
+    font-weight: 900;
+    float: left;
+    margin-left: 18px;
+}
+.login-xz  .a3{
+    font-size: 12px;
+    color: white;
+    font-weight: 900;
+    float: right;
+    display: inline-block;
+}
+.login-xz .a3:hover{
+    color: #0aa1ed;
+}
+.login-in{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 18px;
+    border: 1px solid transparent;
+    background-color: #0aa2ed;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 900;
+    color: white;
+}

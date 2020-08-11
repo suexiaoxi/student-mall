@@ -1,0 +1,106 @@
+/*第一部分*/
+.soucang{
+    width: 1000px;
+
+}
+.soucang a{
+    font-size: 24px;
+    font-weight: bold;
+    color: #bbbbbb;
+    display: inline-block;
+    margin: 10px 10px 12px 0;
+}
+.soucang a:hover{
+    color: #333333;
+}
+.line{
+    width: 1px;
+    color: #bbbbbb;
+    font-weight: 400;
+    margin: 10px 10px 10px 0;
+}
+/*第二部分*/
+.guanli{
+    width: 100%;
+    height: 46px;
+    border-radius: 4px ;
+    box-shadow: 1px 2px 10px #cccccc;
+    background: linear-gradient(#f5f5f5,#e6e6e6);
+    background-color: #f5f5f5;
+
+}
+.guanli > div{
+    margin: 7px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+.guanli-scj{
+    /*width: 120px;*/
+    /*height: 30px;*/
+    /*border-radius: 5px;*/
+    background-color: #eda50a;
+    float: left;
+}
+.guanli >div p{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 26px;
+}
+.guanli-qc{
+    /*width: 120px;*/
+    /*height: 30px;*/
+    /*border-radius: 5px;*/
+    background-color: #cccccc;
+    float: right;
+
+
+}
+/*第三部分*/
+.shopping{
+    width: 100%;
+    height: 544px;
+    border: 1px solid #cccccc;
+    margin-top: 20px;
+    background-color: white;
+
+}
+.shopping > div{
+    width: 230px;
+    height: 250px;
+    border: 1px solid #cccccc;
+    margin: 9px;
+    float: left;
+
+}
+.shopping > div img{
+    background-color: #f5f5f5;
+
+}
+.shopping > div p{
+    font-size: 12px;
+    color: #333333;
+    margin: 3px 2px 3px 2px;
+    font-weight: bold;
+    float: left;
+}
+.shopping > div a{
+    font-size: 12px;
+    font-weight: bold;
+    color: #0aa1ed;
+    display: inline-block;
+    margin: 3px 2px 3px 2px;
+}
+.shopping a:hover{
+    color: #bbbbbb;
+}
+.shopping > div .a1{
+    float: left;
+}
+.shopping > div .a2{
+    float: right;
+}
+
+

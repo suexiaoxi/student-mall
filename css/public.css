@@ -1,0 +1,38 @@
+/*公共的css*/
+html{
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+}
+html,body{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/*公共结构*/
+.wrap,.part{
+    width: 100%;
+}
+.center{
+    width: 1000px;
+    margin: 0 auto;
+}
+/*清除浮动*/
+.clearFloat:after{
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+}
+.clearFloat{
+    zoom: 1;
+}
